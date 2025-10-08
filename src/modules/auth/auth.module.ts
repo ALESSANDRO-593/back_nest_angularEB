@@ -14,5 +14,5 @@ import { JwtStrategy } from './jwt.strategy';
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy]
 })
-export class AuthModule { // <-- Cambia AppModule por AuthModule
+export class AuthModule { 
 }
