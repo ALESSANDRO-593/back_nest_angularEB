@@ -15,7 +15,7 @@ export class UsersController {
   }
 
 
-  @UseGuards(JwtAuthGuard)
+  
   @Get()
   findAll() {
     return this.usersService.findAll();
