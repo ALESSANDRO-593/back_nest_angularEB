@@ -10,7 +10,7 @@ export class ConfigService {
   constructor() {
     const env = process.env.NODE_ENV || 'development';
     const envFilePath = path.join(process.cwd(), `.env.${env}`);
-    console.log("**********",envFilePath);
+    console.log("hola erick bienvenido ",envFilePath);
     const existsPath = fs.existsSync(envFilePath);
     if (!existsPath) {
       console.log(`.env.${process.env.NODE_ENV} no existe`);
